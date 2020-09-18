@@ -13,11 +13,13 @@ header{
   background-size: cover;
   height: 740px;
   opacity: 0.5;
+  margin-left: 15px;
+  margin-left: 15px;
 }
 
 .header--background{
-  padding-top: 34px;
-  margin-left: 50px;
+  padding-top: 32px;
+  margin-left: 34px;
 }
 
 .header--background_title{
@@ -36,7 +38,6 @@ header{
   margin-top: -2px;
   width: 2.5%;
 }
-
 
 /*.rectangle {
   width: 100%;
