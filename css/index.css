@@ -1,3 +1,9 @@
 @charset "utf-8";
 @import 'reset.css';
 
+body {
+  margin: 0 auto;
+  background: url(../assets/home_agency.jpg) no-repeat;
+  background-size: cover;
+  height: 4200px;
+}
