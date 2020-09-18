@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import 'reset.css';
 
+/* Drop body for delete model and class rectangle */
 body{
   margin: 0 auto;
   background: url(../assets/home_agency.jpg) no-repeat;
@@ -117,11 +118,6 @@ ul li a {
  /*pour avoir un effet "outset" avec IE :*/
  border-color:#DCDCDC #696969 #696969 #DCDCDC;
 }
-
-ul li a:hover {
- background-color:#D3D3D3;
- border-color:#696969 #DCDCDC #DCDCDC #696969;
-} 
 
 .header--prev{
  position: absolute;
@@ -270,13 +266,49 @@ ul li a:hover {
   padding-right: -300px;
 }
 
+/*Gallery picture*/
+.container--gallery_navigator{
+  padding-top: 380px;
+  position: relative;
+  float: right;
+  margin-right: -385px;
+}
+
+.container--gallery_comment{
+  position: relative;
+  float: left;
+  padding-top: 190px;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 6px;
+  font-family: 'Arial';
+}
+
+.container--gallery_title{
+  position: relative;
+  float: right;
+  white-space:normal;
+  padding-top: 20px;
+  margin-right: 140px; 
+  letter-spacing: 1.20px;
+  font-family: 'Arial';
+  font-size: 52px;
+  font-weight: bold;
+}
+
+
 /*Raccourci*/
-
-
 .container{
   margin-left: auto;
   margin-right: auto;
   width: 960px;
+}
+
+.text{
+  padding-left: 0px;
+  margin-right: 10px;
+ font-family: 'Arial';
 }
 
 .rectangle{
