@@ -1,24 +1,46 @@
 @charset "utf-8";
 @import 'reset.css';
 
-body {
+body{
   margin: 0 auto;
   background: url(../assets/home_agency.jpg) no-repeat;
   background-size: cover;
   height: 4200px;
 }
 
-header {
+header{
   background: url(../assets/banner-lion.jpg) no-repeat;
   background-size: cover;
   height: 740px;
   opacity: 0.5;
 }
 
+.header--background{
+  padding-top: 34px;
+  margin-left: 50px;
+}
+
+.header--background_title{
+  position: absolute;
+  float: left;
+  font-family: 'Arial';
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.header--background_logo{
+  position: relative;
+  float: right;
+  margin-right: 32px;
+  margin-top: -2px;
+  width: 2.5%;
+}
+
+
 /*.rectangle {
   width: 100%;
   height: 740px;
   opacity: 0.5;
   background-color: yellow;  
-}
-*/
+}*/
