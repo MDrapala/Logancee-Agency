@@ -8,9 +8,17 @@ body {
   height: 4200px;
 }
 
-.rectangle {
+header {
+  background: url(../assets/banner-lion.jpg) no-repeat;
+  background-size: cover;
+  height: 740px;
+  opacity: 0.5;
+}
+
+/*.rectangle {
   width: 100%;
   height: 740px;
   opacity: 0.5;
   background-color: yellow;  
 }
+*/
